@@ -19,10 +19,15 @@ nav {
 
 ul {
     display: flex;
+    justify-content: space-between;
+    padding: 0px;
 }
 
 li {
     list-style-type: none;
+}
+
+.header-wrapper li {
     margin-left: 30px;
 }
 
@@ -40,6 +45,7 @@ li {
 
 .section-wrapper {
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .about-img {
@@ -54,6 +60,14 @@ li {
     justify-content: center;
 }
 
-.name {
+.about-name {
     text-align: left;
+}
+
+.section-wrapper li {
+    width: 32%;
+}
+
+.bicycle-img {
+    max-width: 100%;
 }
