@@ -44,6 +44,7 @@ li {
     height: 600px;
     width: 100%;
     margin-bottom: 80px;
+    object-fit: cover; /* 追加 */
 }
 
 .title {
@@ -75,12 +76,6 @@ li {
 
 .section-wrapper li {
     width: 32%;
-}
-
-@media screen and (width: 600px) {
-    .section-wrapper li {
-        width: 100%;
-    }
 }
 
 .bicycle-img {
